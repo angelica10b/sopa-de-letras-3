@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #grid {
+    display: grid;
+    gap: 2px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .cell.selected {
+    background-color: #add8e6;
+  }
+  
+  .cell.found {
+    background-color: #90ee90;
+    color: #fff;
+  }
+  
+  #word-list {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+  
+  #message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+  }
+  
+  select {
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
